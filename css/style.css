@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.magenta {
+    
+    position: relative;
+    /* width: 1024px; */
+    height: 38px;
+    left: 0px;
+    top: 0px;
+
+    background: #1CD1B0;
+}
+
+
+.magenta span{
+    position: absolute;
+    width: 111px;
+    height: 18px;
+    left: 27px;
+    top: 10px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    
+    color: #000000;
+}
+
+.azul {
+
+    position: relative;
+    /* width: 1024px; */
+    height: 101px;
+    margin-bottom: 154px;
+
+    background: #00669F;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+.azul span {
+    position: absolute;
+    width: 128px;
+    height: 47px;
+    left: 28px;
+    top: 28px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+   
+    color: #000000;
+}
+
+.principal {
+    /* background: #E5E5E5; */
+    text-align: center;
+    display: flex;
+   
+    
+
+}
+
+@media (max-width: 768px){
+    .principal{
+        flex-direction: column;
+        align-items: center;
+        
+    }    
+   
+}
+
+.contRight{
+    height: 529px;
+    width: 300px;
+    position: relative;
+    background-color: #F3F3F3;
+        
+}
+
+#inline{
+    /* display: inline-block; */
+    margin: 12.5px;
+  
+   
+}
+
+.contRightUp {
+    width: 300px;
+    height: 193px;
+
+    background: url(../img/coverbat.png);
+    border-radius: 16px 16px 0px 0px;
+    background-repeat: no-repeat;
+}
+
+.contRightUpLast {
+    width: 300px;
+    height: 193px;
+
+    background: url(../img/bannersuperman.png);
+    border-radius: 16px 16px 0px 0px;
+    background-repeat: no-repeat;
+}
+
+
+.contCentertUp {
+    width: 300px;
+    height: 193px;
+
+    background: url(../img/coverharley.png);
+    border-radius: 16px 16px 0px 0px;
+    background-repeat: no-repeat;
+}
+
+.contRightCenter {
+    width: 120px;
+    height: 118px;
+    position: absolute;
+    top:128px;
+    left: 90px;
+    border-radius: 50%;
+    
+    background: url(../img/batman.png);
+    background-repeat: no-repeat;
+    }
+
+.contRightCenterLast {
+    width: 120px;
+    height: 118px;
+    position: absolute;
+    top:128px;
+    left: 90px;
+    border-radius: 50%;
+    
+    background: url(../img/superman.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }    
+
+.contRightCenterHarley {
+    width: 120px;
+    height: 118px;
+    position: absolute;
+    top:128px;
+    left: 90px;
+    border-radius: 50%;
+    
+    background: url(../img/harley.png);
+    background-repeat: no-repeat;
+    }
+
+
+.contRightBotton{
+    width: 300px;
+    height: 336px;
+    margin-bottom: 151px ;
+    position: relative;
+    
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);    
+    }
+
+.tituloRight {
+    position: absolute;
+    width: 122px;
+    height: 35px;
+    left: 89px;
+    top: 74px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+   
+    text-align: center;
+    color: #000000;
+
+    }
+    .tituloRightLast {
+        position: absolute;
+        width: 122px;
+        height: 35px;
+        left: 75px;
+        top: 74px;
+    
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 35px;
+       
+        text-align: center;
+        color: #000000;
+    
+        }
+   
+
+.tituloHarley {
+    position: absolute;
+    width: 171px;
+    height: 35px;
+    left: 65px;
+    top: 74px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+   
+    text-align: center;
+    color: #000000;
+
+    }
+
+
+
+.parrafoRight {
+    width: 267px;
+    height: 113px;
+    position: absolute;
+    top: 119px;
+    left: 16px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align:left;
+
+    color: #333333;
+
+}
+
+.verMasRight {
+    
+    position: absolute;
+    width: 128.78px;
+    height: 48.52px;
+    top: 269px;
+    left: 85px;
+    background: #00669F;
+    padding: 15px;
+    text-align: center;
+}
+
+.verRight {
+    
+    width: 56px;
+    height: 18px;
+
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    
+    color: #F3F3F3;
+}
+
+.contRight img {
+  padding-right: 80%;
+  padding-top: 16px; 
+  
+  
+}
+
+
+.pieDeDePagina {
+
+    /* width: 1024px; */
+    height: 51px;
+    margin-top: 151px;
+    padding: 16px;
+
+    background: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.pieDeDePagina .derechosReservados {
+ 
+    width: 337px;
+    height: 19px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+  
+    color: #FFF9F9;
+}
